@@ -6,42 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TAGOPLUS</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script>
-      (function (d) {
-        var config = {
-            kitId: "pkx5omj",
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a;
-        h.className += " wf-loading";
-        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != "complete" && a != "loaded")) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
-
     <!--style-->
     <link rel="stylesheet" href="../assets/style/media/desctop.css">
     <link rel="stylesheet" href="../assets/style/media/tablet.css">
     <link rel="stylesheet" href="../assets/style/media/phone.css">
+    <link rel="stylesheet" href="../assets/style/sub/main.css">
   </head>
   <body>
     <!-- header start-->
@@ -55,20 +24,15 @@
           </button>
           <div class="dropdown-content-container">
            <div class="dropdown-content">
-          <div class="menu-group">
+          
             <a class="aTag" href="./sub/main.html">서비스 소개</a>
             <a class="aTag" href="./sub/main.html">퍼블리싱 의뢰</a>
             <a class="aTag" href="./sub/main.html">포트폴리오</a>
             <a class="aTag" href="./sub/main.html">고객센터</a>
-            <div class="menu-icon">
-              <img src="../assets/icons/123.png" alt="humanIcon" />
-              <a href="./sub/main.html" class="aTag"
-              >
+              <a href="../index.html" class="aTag"
+              ><img src="../../assets/icons/123.png" alt="humanIcon" />
               마이페이지</a
-              >
-
-            </div>
-          </div>
+            >
             <div class="buttonGroup">
               <button class="headerButton1">로그인</button>
               <button class="headerButton2">회원가입</button>
@@ -100,7 +64,7 @@
             <div class="medal1">
               <img
                 class="medalIcon"
-                src="../assets/icons/medal.png"
+                src="../assets/icons/gold.png"
                 alt="goldMedal"
               />
               <p class="reward-title">여성의류 쇼핑몰</p>
@@ -128,7 +92,7 @@
             <div class="medal1">
               <img
                 class="medalIcon"
-                src="../assets/icons/medal2.png"
+                src="../assets/icons/silver.png"
                 alt="medal"
               />
               <p>강남성모병원</p>
@@ -156,7 +120,7 @@
             <div class="medal1">
               <img
                 class="medalIcon"
-                src="../assets/icons/medal3.png"
+                src="../assets/icons/bronze.png"
                 alt="bronzeMedal"
               />
               <p>밀알복지재단 30주년 ..</p>
@@ -428,15 +392,15 @@
           </div>
           <div class="comments">
             <section class="comm1">
-              <div>사이트가 새롭게 오픈되었습니다. 사이트가</div>
+              <div>사이트가 새롭게 오픈되었습니다. 사이트가 새롭게 오</div>
               <div class="review-date">2023.05.11</div>
             </section>
             <section class="comm2">
-              <div>사이트가 새롭게 오픈되었습니다. 사이트가</div>
+              <div>사이트가 새롭게 오픈되었습니다.</div>
               <div class="review-date">2023.05.11</div>
             </section>
             <section class="comm3">
-              <div>사이트가 새롭게 오픈되었습니다 사이트가</div>
+              <div>안드로이드 지원 중단 버전 안내 </div>
               <div class="review-date">2023.05.11</div>
             </section>
           </div>
